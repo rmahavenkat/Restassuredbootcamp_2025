@@ -16,9 +16,4 @@ import io.cucumber.testng.CucumberOptions;
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 
-	@Override
-	public Object[][] scenarios() {
-		return super.scenarios();
-	}
-
 }
