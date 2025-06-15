@@ -1,0 +1,1676 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\rmaha\AppData\Local\Temp\testng-eclipse--20045595\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">55 methods, 4 failed,   51 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retrieve user details with  valid authorization and invalid user Id&quot;, &quot;creat...)">runScenario("Check if Admin able to retrieve user details with  valid authorization and invalid user Id", "creat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with non mandetory fields only&quot;, &quot;creating new users&quot;)">runScenario("Add new user with non mandetory fields only", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Delete operation with valid firstname&quot;, &quot;delete the users with userName&quot;)">runScenario("Delete operation with valid firstname", "delete the users with userName")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with number in email id&quot;, &quot;creating new users&quot;)">runScenario("Add new user with number in email id", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add New User with all fields without Authorization&quot;, &quot;creating new users&quot;)">runScenario("Add New User with all fields without Authorization", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retrieve user details with  valid authorization and valid user first name&quot;, ...)">runScenario("Check if Admin able to retrieve user details with  valid authorization and valid user first name", ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with more than 10 characters in contact number&quot;, &quot;creating new users&quot;)">runScenario("Add new user with more than 10 characters in contact number", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with existing contact number&quot;, &quot;creating new users&quot;)">runScenario("Add new user with existing contact number", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update  Last name with numbers and Special characters&quot;, &quot;updating the users&quot;)">runScenario("Check if user able to update  Last name with numbers and Special characters", "updating the users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retrieve user details with valid user first name and without authorization&quot;,...)">runScenario("Check if Admin able to retrieve user details with valid user first name and without authorization",...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Delete operation with non existing userID&quot;, &quot;delete the users with userID&quot;)">runScenario("Delete operation with non existing userID", "delete the users with userID")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update First name with numbers and Special characters&quot;, &quot;updating the users&quot;)">runScenario("Check if user able to update First name with numbers and Special characters", "updating the users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with special characters in email id&quot;, &quot;creating new users&quot;)">runScenario("Add new user with special characters in email id", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with plot number contains interger values&quot;, &quot;creating new users&quot;)">runScenario("Add new user with plot number contains interger values", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with invalid end point&quot;, &quot;creating new users&quot;)">runScenario("Add new user with invalid end point", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with plot number contains special characters&quot;, &quot;creating new users&quot;)">runScenario("Add new user with plot number contains special characters", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Delete operation with non existing firstname&quot;, &quot;delete the users with userName&quot;)">runScenario("Delete operation with non existing firstname", "delete the users with userName")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update Contact number with more than 10 character&quot;, &quot;updating the users&quot;)">runScenario("Check if user able to update Contact number with more than 10 character", "updating the users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with invalid base url&quot;, &quot;creating new users&quot;)">runScenario("Add new user with invalid base url", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update user details with user id and all fields empty&quot;, &quot;updating the users&quot;)">runScenario("Check if user able to update user details with user id and all fields empty", "updating the users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with zipcode contains special characters&quot;, &quot;creating new users&quot;)">runScenario("Add new user with zipcode contains special characters", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with all fields empty&quot;, &quot;creating new users&quot;)">runScenario("Add new user with all fields empty", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Delete operation with valid userID&quot;, &quot;delete the users with userID&quot;)">runScenario("Delete operation with valid userID", "delete the users with userID")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update user details with valid user id&quot;, &quot;updating the users&quot;)">runScenario("Check if user able to update user details with valid user id", "updating the users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with Street contains special characters&quot;, &quot;creating new users&quot;)">runScenario("Add new user with Street contains special characters", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update First Name with valid user id&quot;, &quot;updating the users with single field&quot;)">runScenario("Check if user able to update First Name with valid user id", "updating the users with single field")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with existing email id&quot;, &quot;creating new users&quot;)">runScenario("Add new user with existing email id", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update user details with No Authorization&quot;, &quot;updating the users&quot;)">runScenario("Check if user able to update user details with No Authorization", "updating the users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with invalid email format&quot;, &quot;creating new users&quot;)">runScenario("Add new user with invalid email format", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retreive all user details with invalid end point and valid authorization&quot;, &quot;...)">runScenario("Check if Admin able to retreive all user details with invalid end point and valid authorization", "...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with State contains interger values&quot;, &quot;creating new users&quot;)">runScenario("Add new user with State contains interger values", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update user details with Alphabets for Contact number&quot;, &quot;updating the users&quot;)">runScenario("Check if user able to update user details with Alphabets for Contact number", "updating the users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retrieve user details with  valid user Id and invalid authorization&quot;, &quot;creat...)">runScenario("Check if Admin able to retrieve user details with  valid user Id and invalid authorization", "creat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with Street contains interger values&quot;, &quot;creating new users&quot;)">runScenario("Add new user with Street contains interger values", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with special characters in first name&quot;, &quot;creating new users&quot;)">runScenario("Add new user with special characters in first name", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with State contains special characters&quot;, &quot;creating new users&quot;)">runScenario("Add new user with State contains special characters", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with interger values in Last name&quot;, &quot;creating new users&quot;)">runScenario("Add new user with interger values in Last name", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retrieve user details with  valid user Id and without authorization&quot;, &quot;creat...)">runScenario("Check if Admin able to retrieve user details with  valid user Id and without authorization", "creat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with zipcode contains alphabet values&quot;, &quot;creating new users&quot;)">runScenario("Add new user with zipcode contains alphabet values", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add New User with all fields&quot;, &quot;creating new users&quot;)">runScenario("Add New User with all fields", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retreive all user details with valid end point and invalid method&quot;, &quot;get all...)">runScenario("Check if Admin able to retreive all user details with valid end point and invalid method", "get all...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with special characters in contact number&quot;, &quot;creating new users&quot;)">runScenario("Add new user with special characters in contact number", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with special characters in first name&quot;, &quot;creating new users&quot;)">runScenario("Add new user with special characters in first name", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with country contains special characters&quot;, &quot;creating new users&quot;)">runScenario("Add new user with country contains special characters", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retrieve user details with  valid user Id and invalid method&quot;, &quot;creating new...)">runScenario("Check if Admin able to retrieve user details with  valid user Id and invalid method", "creating new...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if user able to update user details with No Authorization&quot;, &quot;updating the users with single f...)">runScenario("Check if user able to update user details with No Authorization", "updating the users with single f...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with interger values in first name&quot;, &quot;creating new users&quot;)">runScenario("Add new user with interger values in first name", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retreive all user details with valid end point and without authorization&quot;, &quot;...)">runScenario("Check if Admin able to retreive all user details with valid end point and without authorization", "...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retrieve user details with  valid authorization and valid user Id&quot;, &quot;creatin...)">runScenario("Check if Admin able to retrieve user details with  valid authorization and valid user Id", "creatin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retrieve user details with  valid user first name and invalid authorization&quot;...)">runScenario("Check if Admin able to retrieve user details with  valid user first name and invalid authorization"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with less than 10 characters in contact number&quot;, &quot;creating new users&quot;)">runScenario("Add new user with less than 10 characters in contact number", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with country contains interger values&quot;, &quot;creating new users&quot;)">runScenario("Add new user with country contains interger values", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retreive all user details with valid end point and with authorization&quot;, &quot;get...)">runScenario("Check if Admin able to retreive all user details with valid end point and with authorization", "get...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Add new user with alphabets in contact number&quot;, &quot;creating new users&quot;)">runScenario("Add new user with alphabets in contact number", "creating new users")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="api_Runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check if Admin able to retreive all user details with valid end point and invalid authorization&quot;, &quot;...)">runScenario("Check if Admin able to retreive all user details with valid end point and invalid authorization", "...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api_Runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retrieve user details with  valid authorization and invalid user Id&quot;, &quot;creat...)">
+                  </a> <!-- runScenario("Check if Admin able to retrieve user details with  valid authorization and invalid user Id", "creat...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retrieve user details with  valid authorization and invalid user Id","creating new users")</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid number of path parameters. Expected 0, was 1. Redundant path parameters are: id=30182.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.RequestSpecificationImpl.assertCorrectNumberOfPathParams(RequestSpecificationImpl.groovy:1277)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:176)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1161)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.filter.CsrfFilter.filter(CsrfFilter.groovy:89)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1704)
+	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy:296)
+	at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy)
+	at api_stepDefinition.GETByUserID_SD.admin_sends_https_request_with_invalid_user_id(GETByUserID_SD.java:63)
+	at ✽.Admin sends HTTPS Request with invalid user Id(file:///C:/Users/rmaha/eclipse-workspace/RESTAssuredAPIBootcampMay2025_BDD/src/test/resources/api_featurefiles/03_getByUserId.feature:22)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with non mandetory fields only&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with non mandetory fields only", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with non mandetory fields only","creating new users")</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;500&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at api_stepDefinition.Post_SD.user_receives_bad_requeststatus_with_message(Post_SD.java:115)
+	at ✽.User receives 400 Bad Requeststatus with message(file:///C:/Users/rmaha/eclipse-workspace/RESTAssuredAPIBootcampMay2025_BDD/src/test/resources/api_featurefiles/02_Post.feature:28)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Delete operation with valid firstname&quot;, &quot;delete the users with userName&quot;)">
+                  </a> <!-- runScenario("Delete operation with valid firstname", "delete the users with userName") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Delete operation with valid firstname","delete the users with userName")</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at api_stepDefinition.deletebyUserName_SD.user_receives_ok_status_success(deletebyUserName_SD.java:42)
+	at ✽.user receives 200:ok status Success(file:///C:/Users/rmaha/eclipse-workspace/RESTAssuredAPIBootcampMay2025_BDD/src/test/resources/api_featurefiles/DeleteByUserName.feature:10)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with number in email id&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with number in email id", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with number in email id","creating new users")</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;409&gt;.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at api_stepDefinition.Post_SD.user_receives_bad_requeststatus_with_message(Post_SD.java:115)
+	at ✽.User receives 400 Bad Requeststatus with message(file:///C:/Users/rmaha/eclipse-workspace/RESTAssuredAPIBootcampMay2025_BDD/src/test/resources/api_featurefiles/02_Post.feature:101)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api_Runner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add New User with all fields without Authorization&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add New User with all fields without Authorization", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add New User with all fields without Authorization","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retrieve user details with  valid authorization and valid user first name&quot;, ...)">
+                  </a> <!-- runScenario("Check if Admin able to retrieve user details with  valid authorization and valid user first name", ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retrieve user details with  valid authorization and valid user first name","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with more than 10 characters in contact number&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with more than 10 characters in contact number", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with more than 10 characters in contact number","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with existing contact number&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with existing contact number", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with existing contact number","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update  Last name with numbers and Special characters&quot;, &quot;updating the users&quot;)">
+                  </a> <!-- runScenario("Check if user able to update  Last name with numbers and Special characters", "updating the users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update  Last name with numbers and Special characters","updating the users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retrieve user details with valid user first name and without authorization&quot;,...)">
+                  </a> <!-- runScenario("Check if Admin able to retrieve user details with valid user first name and without authorization",...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retrieve user details with valid user first name and without authorization","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Delete operation with non existing userID&quot;, &quot;delete the users with userID&quot;)">
+                  </a> <!-- runScenario("Delete operation with non existing userID", "delete the users with userID") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Delete operation with non existing userID","delete the users with userID")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update First name with numbers and Special characters&quot;, &quot;updating the users&quot;)">
+                  </a> <!-- runScenario("Check if user able to update First name with numbers and Special characters", "updating the users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update First name with numbers and Special characters","updating the users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with special characters in email id&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with special characters in email id", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with special characters in email id","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with plot number contains interger values&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with plot number contains interger values", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with plot number contains interger values","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with invalid end point&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with invalid end point", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with invalid end point","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with plot number contains special characters&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with plot number contains special characters", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with plot number contains special characters","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Delete operation with non existing firstname&quot;, &quot;delete the users with userName&quot;)">
+                  </a> <!-- runScenario("Delete operation with non existing firstname", "delete the users with userName") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Delete operation with non existing firstname","delete the users with userName")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update Contact number with more than 10 character&quot;, &quot;updating the users&quot;)">
+                  </a> <!-- runScenario("Check if user able to update Contact number with more than 10 character", "updating the users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update Contact number with more than 10 character","updating the users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with invalid base url&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with invalid base url", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with invalid base url","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update user details with user id and all fields empty&quot;, &quot;updating the users&quot;)">
+                  </a> <!-- runScenario("Check if user able to update user details with user id and all fields empty", "updating the users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update user details with user id and all fields empty","updating the users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with zipcode contains special characters&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with zipcode contains special characters", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with zipcode contains special characters","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with all fields empty&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with all fields empty", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with all fields empty","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Delete operation with valid userID&quot;, &quot;delete the users with userID&quot;)">
+                  </a> <!-- runScenario("Delete operation with valid userID", "delete the users with userID") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Delete operation with valid userID","delete the users with userID")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update user details with valid user id&quot;, &quot;updating the users&quot;)">
+                  </a> <!-- runScenario("Check if user able to update user details with valid user id", "updating the users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update user details with valid user id","updating the users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with Street contains special characters&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with Street contains special characters", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with Street contains special characters","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update First Name with valid user id&quot;, &quot;updating the users with single field&quot;)">
+                  </a> <!-- runScenario("Check if user able to update First Name with valid user id", "updating the users with single field") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update First Name with valid user id","updating the users with single field")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with existing email id&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with existing email id", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with existing email id","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update user details with No Authorization&quot;, &quot;updating the users&quot;)">
+                  </a> <!-- runScenario("Check if user able to update user details with No Authorization", "updating the users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update user details with No Authorization","updating the users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with invalid email format&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with invalid email format", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with invalid email format","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retreive all user details with invalid end point and valid authorization&quot;, &quot;...)">
+                  </a> <!-- runScenario("Check if Admin able to retreive all user details with invalid end point and valid authorization", "...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retreive all user details with invalid end point and valid authorization","get all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with State contains interger values&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with State contains interger values", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with State contains interger values","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update user details with Alphabets for Contact number&quot;, &quot;updating the users&quot;)">
+                  </a> <!-- runScenario("Check if user able to update user details with Alphabets for Contact number", "updating the users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update user details with Alphabets for Contact number","updating the users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retrieve user details with  valid user Id and invalid authorization&quot;, &quot;creat...)">
+                  </a> <!-- runScenario("Check if Admin able to retrieve user details with  valid user Id and invalid authorization", "creat...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retrieve user details with  valid user Id and invalid authorization","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with Street contains interger values&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with Street contains interger values", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with Street contains interger values","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with special characters in first name&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with special characters in first name", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with special characters in first name","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with State contains special characters&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with State contains special characters", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with State contains special characters","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with interger values in Last name&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with interger values in Last name", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with interger values in Last name","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retrieve user details with  valid user Id and without authorization&quot;, &quot;creat...)">
+                  </a> <!-- runScenario("Check if Admin able to retrieve user details with  valid user Id and without authorization", "creat...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retrieve user details with  valid user Id and without authorization","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with zipcode contains alphabet values&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with zipcode contains alphabet values", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with zipcode contains alphabet values","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add New User with all fields&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add New User with all fields", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add New User with all fields","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retreive all user details with valid end point and invalid method&quot;, &quot;get all...)">
+                  </a> <!-- runScenario("Check if Admin able to retreive all user details with valid end point and invalid method", "get all...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retreive all user details with valid end point and invalid method","get all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with special characters in contact number&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with special characters in contact number", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with special characters in contact number","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with special characters in first name&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with special characters in first name", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with special characters in first name","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with country contains special characters&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with country contains special characters", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with country contains special characters","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retrieve user details with  valid user Id and invalid method&quot;, &quot;creating new...)">
+                  </a> <!-- runScenario("Check if Admin able to retrieve user details with  valid user Id and invalid method", "creating new...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retrieve user details with  valid user Id and invalid method","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if user able to update user details with No Authorization&quot;, &quot;updating the users with single f...)">
+                  </a> <!-- runScenario("Check if user able to update user details with No Authorization", "updating the users with single f...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if user able to update user details with No Authorization","updating the users with single field")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with interger values in first name&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with interger values in first name", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with interger values in first name","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retreive all user details with valid end point and without authorization&quot;, &quot;...)">
+                  </a> <!-- runScenario("Check if Admin able to retreive all user details with valid end point and without authorization", "...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retreive all user details with valid end point and without authorization","get all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retrieve user details with  valid authorization and valid user Id&quot;, &quot;creatin...)">
+                  </a> <!-- runScenario("Check if Admin able to retrieve user details with  valid authorization and valid user Id", "creatin...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retrieve user details with  valid authorization and valid user Id","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retrieve user details with  valid user first name and invalid authorization&quot;...)">
+                  </a> <!-- runScenario("Check if Admin able to retrieve user details with  valid user first name and invalid authorization"...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retrieve user details with  valid user first name and invalid authorization","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with less than 10 characters in contact number&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with less than 10 characters in contact number", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with less than 10 characters in contact number","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with country contains interger values&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with country contains interger values", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with country contains interger values","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retreive all user details with valid end point and with authorization&quot;, &quot;get...)">
+                  </a> <!-- runScenario("Check if Admin able to retreive all user details with valid end point and with authorization", "get...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retreive all user details with valid end point and with authorization","get all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add new user with alphabets in contact number&quot;, &quot;creating new users&quot;)">
+                  </a> <!-- runScenario("Add new user with alphabets in contact number", "creating new users") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add new user with alphabets in contact number","creating new users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check if Admin able to retreive all user details with valid end point and invalid authorization&quot;, &quot;...)">
+                  </a> <!-- runScenario("Check if Admin able to retreive all user details with valid end point and invalid authorization", "...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check if Admin able to retreive all user details with valid end point and invalid authorization","get all users")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rmaha\AppData\Local\Temp\testng-eclipse--20045595\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api_Runner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(55);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'api_Runner.TestRunner')
+data.setCell(0, 3, 5395);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'api_Runner.TestRunner')
+data.setCell(1, 3, 728);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'api_Runner.TestRunner')
+data.setCell(2, 3, 644);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'api_Runner.TestRunner')
+data.setCell(3, 3, 615);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'api_Runner.TestRunner')
+data.setCell(4, 3, 610);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'api_Runner.TestRunner')
+data.setCell(5, 3, 472);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'api_Runner.TestRunner')
+data.setCell(6, 3, 464);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'api_Runner.TestRunner')
+data.setCell(7, 3, 454);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'api_Runner.TestRunner')
+data.setCell(8, 3, 448);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'api_Runner.TestRunner')
+data.setCell(9, 3, 427);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'api_Runner.TestRunner')
+data.setCell(10, 3, 420);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'api_Runner.TestRunner')
+data.setCell(11, 3, 410);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'api_Runner.TestRunner')
+data.setCell(12, 3, 409);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'api_Runner.TestRunner')
+data.setCell(13, 3, 409);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'api_Runner.TestRunner')
+data.setCell(14, 3, 406);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'api_Runner.TestRunner')
+data.setCell(15, 3, 393);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'api_Runner.TestRunner')
+data.setCell(16, 3, 391);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'api_Runner.TestRunner')
+data.setCell(17, 3, 390);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'api_Runner.TestRunner')
+data.setCell(18, 3, 388);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'api_Runner.TestRunner')
+data.setCell(19, 3, 386);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'api_Runner.TestRunner')
+data.setCell(20, 3, 384);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'api_Runner.TestRunner')
+data.setCell(21, 3, 382);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'api_Runner.TestRunner')
+data.setCell(22, 3, 382);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'api_Runner.TestRunner')
+data.setCell(23, 3, 381);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'api_Runner.TestRunner')
+data.setCell(24, 3, 378);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runScenario')
+data.setCell(25, 2, 'api_Runner.TestRunner')
+data.setCell(25, 3, 378);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runScenario')
+data.setCell(26, 2, 'api_Runner.TestRunner')
+data.setCell(26, 3, 378);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runScenario')
+data.setCell(27, 2, 'api_Runner.TestRunner')
+data.setCell(27, 3, 377);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'runScenario')
+data.setCell(28, 2, 'api_Runner.TestRunner')
+data.setCell(28, 3, 377);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'runScenario')
+data.setCell(29, 2, 'api_Runner.TestRunner')
+data.setCell(29, 3, 376);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runScenario')
+data.setCell(30, 2, 'api_Runner.TestRunner')
+data.setCell(30, 3, 371);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runScenario')
+data.setCell(31, 2, 'api_Runner.TestRunner')
+data.setCell(31, 3, 370);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runScenario')
+data.setCell(32, 2, 'api_Runner.TestRunner')
+data.setCell(32, 3, 370);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'runScenario')
+data.setCell(33, 2, 'api_Runner.TestRunner')
+data.setCell(33, 3, 370);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'runScenario')
+data.setCell(34, 2, 'api_Runner.TestRunner')
+data.setCell(34, 3, 369);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'runScenario')
+data.setCell(35, 2, 'api_Runner.TestRunner')
+data.setCell(35, 3, 368);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'runScenario')
+data.setCell(36, 2, 'api_Runner.TestRunner')
+data.setCell(36, 3, 368);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'runScenario')
+data.setCell(37, 2, 'api_Runner.TestRunner')
+data.setCell(37, 3, 367);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'runScenario')
+data.setCell(38, 2, 'api_Runner.TestRunner')
+data.setCell(38, 3, 366);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'runScenario')
+data.setCell(39, 2, 'api_Runner.TestRunner')
+data.setCell(39, 3, 364);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'runScenario')
+data.setCell(40, 2, 'api_Runner.TestRunner')
+data.setCell(40, 3, 364);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'runScenario')
+data.setCell(41, 2, 'api_Runner.TestRunner')
+data.setCell(41, 3, 363);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'runScenario')
+data.setCell(42, 2, 'api_Runner.TestRunner')
+data.setCell(42, 3, 362);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'runScenario')
+data.setCell(43, 2, 'api_Runner.TestRunner')
+data.setCell(43, 3, 362);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'runScenario')
+data.setCell(44, 2, 'api_Runner.TestRunner')
+data.setCell(44, 3, 362);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'runScenario')
+data.setCell(45, 2, 'api_Runner.TestRunner')
+data.setCell(45, 3, 361);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'runScenario')
+data.setCell(46, 2, 'api_Runner.TestRunner')
+data.setCell(46, 3, 361);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'runScenario')
+data.setCell(47, 2, 'api_Runner.TestRunner')
+data.setCell(47, 3, 359);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'runScenario')
+data.setCell(48, 2, 'api_Runner.TestRunner')
+data.setCell(48, 3, 353);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'runScenario')
+data.setCell(49, 2, 'api_Runner.TestRunner')
+data.setCell(49, 3, 351);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'runScenario')
+data.setCell(50, 2, 'api_Runner.TestRunner')
+data.setCell(50, 3, 314);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'runScenario')
+data.setCell(51, 2, 'api_Runner.TestRunner')
+data.setCell(51, 3, 312);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'runScenario')
+data.setCell(52, 2, 'api_Runner.TestRunner')
+data.setCell(52, 3, 290);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'runScenario')
+data.setCell(53, 2, 'api_Runner.TestRunner')
+data.setCell(53, 3, 287);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'runScenario')
+data.setCell(54, 2, 'api_Runner.TestRunner')
+data.setCell(54, 3, 29);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">api_Runner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@30eee098)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retreive all user details with valid end point and with authorization", "get...)</span>
+                <span class="method-start">674 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retreive all user details with valid end point and without authorization", "...)</span>
+                <span class="method-start">6096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retreive all user details with valid end point and invalid authorization", "...)</span>
+                <span class="method-start">6414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retreive all user details with invalid end point and valid authorization", "...)</span>
+                <span class="method-start">6779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retreive all user details with valid end point and invalid method", "get all...)</span>
+                <span class="method-start">7191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add New User with all fields without Authorization", "creating new users")</span>
+                <span class="method-start">7554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with invalid base url", "creating new users")</span>
+                <span class="method-start">8020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with invalid end point", "creating new users")</span>
+                <span class="method-start">8406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Add new user with non mandetory fields only", "creating new users")</span>
+                <span class="method-start">8775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with all fields empty", "creating new users")</span>
+                <span class="method-start">9173 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with interger values in first name", "creating new users")</span>
+                <span class="method-start">9538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with special characters in first name", "creating new users")</span>
+                <span class="method-start">9910 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with interger values in Last name", "creating new users")</span>
+                <span class="method-start">10318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with special characters in first name", "creating new users")</span>
+                <span class="method-start">10698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with alphabets in contact number", "creating new users")</span>
+                <span class="method-start">11077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with special characters in contact number", "creating new users")</span>
+                <span class="method-start">11439 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with less than 10 characters in contact number", "creating new users")</span>
+                <span class="method-start">11818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with more than 10 characters in contact number", "creating new users")</span>
+                <span class="method-start">12190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with invalid email format", "creating new users")</span>
+                <span class="method-start">12575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with special characters in email id", "creating new users")</span>
+                <span class="method-start">12945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Add new user with number in email id", "creating new users")</span>
+                <span class="method-start">13374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with plot number contains interger values", "creating new users")</span>
+                <span class="method-start">13754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with plot number contains special characters", "creating new users")</span>
+                <span class="method-start">14147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with Street contains interger values", "creating new users")</span>
+                <span class="method-start">14511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with Street contains special characters", "creating new users")</span>
+                <span class="method-start">14923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with State contains interger values", "creating new users")</span>
+                <span class="method-start">15373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with State contains special characters", "creating new users")</span>
+                <span class="method-start">15756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with country contains interger values", "creating new users")</span>
+                <span class="method-start">16116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with country contains special characters", "creating new users")</span>
+                <span class="method-start">16483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with zipcode contains alphabet values", "creating new users")</span>
+                <span class="method-start">16861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with zipcode contains special characters", "creating new users")</span>
+                <span class="method-start">17248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add New User with all fields", "creating new users")</span>
+                <span class="method-start">17619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with existing contact number", "creating new users")</span>
+                <span class="method-start">18267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Add new user with existing email id", "creating new users")</span>
+                <span class="method-start">18645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retrieve user details with  valid user Id and without authorization", "creat...)</span>
+                <span class="method-start">19035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retrieve user details with  valid user Id and invalid authorization", "creat...)</span>
+                <span class="method-start">19348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Check if Admin able to retrieve user details with  valid authorization and invalid user Id", "creat...)</span>
+                <span class="method-start">19710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retrieve user details with  valid user Id and invalid method", "creating new...)</span>
+                <span class="method-start">19742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retrieve user details with  valid authorization and valid user Id", "creatin...)</span>
+                <span class="method-start">20107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retrieve user details with valid user first name and without authorization",...)</span>
+                <span class="method-start">20517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retrieve user details with  valid user first name and invalid authorization"...)</span>
+                <span class="method-start">20806 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if Admin able to retrieve user details with  valid authorization and valid user first name", ...)</span>
+                <span class="method-start">21159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update user details with No Authorization", "updating the users")</span>
+                <span class="method-start">21580 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update user details with user id and all fields empty", "updating the users")</span>
+                <span class="method-start">22311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update First name with numbers and Special characters", "updating the users")</span>
+                <span class="method-start">22676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update  Last name with numbers and Special characters", "updating the users")</span>
+                <span class="method-start">23068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update Contact number with more than 10 character", "updating the users")</span>
+                <span class="method-start">23524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update user details with Alphabets for Contact number", "updating the users")</span>
+                <span class="method-start">24136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update user details with valid user id", "updating the users")</span>
+                <span class="method-start">24752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update user details with No Authorization", "updating the users with single f...)</span>
+                <span class="method-start">25226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check if user able to update First Name with valid user id", "updating the users with single field")</span>
+                <span class="method-start">25517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Delete operation with valid userID", "delete the users with userID")</span>
+                <span class="method-start">25901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Delete operation with non existing userID", "delete the users with userID")</span>
+                <span class="method-start">26273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Delete operation with valid firstname", "delete the users with userName")</span>
+                <span class="method-start">26627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Delete operation with non existing firstname", "delete the users with userName")</span>
+                <span class="method-start">27000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">27372 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,206 @@
+[INFO ] 2025-06-09 22:00:38.286 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 22:00:38.608 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 22:00:41.194 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 22:00:41.196 [main] LoggerReader - authenticated without valid username and password
+[INFO ] 2025-06-09 22:00:41.498 [main] LoggerReader - Setting invalid basic auth
+[INFO ] 2025-06-09 22:00:41.498 [main] LoggerReader - authenticated with invalid username and password
+[INFO ] 2025-06-09 22:00:41.866 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 22:00:41.866 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 22:00:42.300 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 22:00:42.300 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 22:00:42.662 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 22:00:42.662 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 22:00:43.006 [main] LoggerReader - Sent POST request without auth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 22:00:43.007 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 22:09:28.662 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 22:09:28.989 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 22:09:30.531 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 200 OK
+[INFO ] 2025-06-09 22:09:31.289 [main] LoggerReader - Validated authorized response: : HTTP/1.1 200 OK
+[INFO ] 2025-06-09 22:09:31.305 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 22:09:31.305 [main] LoggerReader - authenticated without username and password
+[INFO ] 2025-06-09 22:09:31.620 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 22:09:31.623 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 22:09:31.630 [main] LoggerReader - Setting invalid basic auth
+[INFO ] 2025-06-09 22:09:31.631 [main] LoggerReader - authenticated with invalid username and password
+[INFO ] 2025-06-09 22:09:31.990 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 22:09:31.992 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 22:09:31.997 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 22:09:31.998 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 22:09:32.401 [main] LoggerReader - Sent GET request with invalid endpoint: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 22:09:32.407 [main] LoggerReader - Validated response: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 22:09:32.411 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 22:09:32.412 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 22:09:32.759 [main] LoggerReader - Sent GET request with invalid Method name: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 22:09:32.761 [main] LoggerReader - Validated response: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 22:09:32.764 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 22:09:32.765 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 22:09:33.155 [main] LoggerReader - Sent POST request without auth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 22:09:33.157 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 22:13:32.613 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 22:13:32.955 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 22:13:34.057 [main] LoggerReader - Sent POST request without auth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 22:13:34.077 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 22:13:34.099 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 22:48:20.884 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 22:48:21.432 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 22:48:21.441 [main] LoggerReader - Setting invalid basic auth
+[INFO ] 2025-06-09 22:48:21.452 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 22:48:21.465 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 22:48:21.473 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 22:48:21.480 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:01:03.608 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:01:04.042 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:01:04.054 [main] LoggerReader - Setting invalid basic auth
+[INFO ] 2025-06-09 23:01:04.066 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:01:04.076 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:01:04.087 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:01:04.095 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:02:10.327 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:02:10.801 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:02:12.893 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 200 OK
+[INFO ] 2025-06-09 23:02:14.174 [main] LoggerReader - Validated authorized response: : HTTP/1.1 200 OK
+[INFO ] 2025-06-09 23:02:14.192 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:02:14.193 [main] LoggerReader - authenticated without username and password
+[INFO ] 2025-06-09 23:02:14.631 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:02:14.634 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:02:14.638 [main] LoggerReader - Setting invalid basic auth
+[INFO ] 2025-06-09 23:02:14.639 [main] LoggerReader - authenticated with invalid username and password
+[INFO ] 2025-06-09 23:02:14.989 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:02:14.993 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:02:15.000 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:02:15.001 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:02:15.403 [main] LoggerReader - Sent GET request with invalid endpoint: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:02:15.408 [main] LoggerReader - Validated response: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:02:15.416 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:02:15.417 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:02:15.785 [main] LoggerReader - Sent GET request with invalid Method name: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 23:02:15.788 [main] LoggerReader - Validated response: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 23:02:15.816 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:02:15.817 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:02:16.268 [main] LoggerReader - Sent POST request without auth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:02:16.271 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:02:16.276 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:18:01.766 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:18:02.225 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:18:02.246 [main] LoggerReader - Setting invalid basic auth
+[INFO ] 2025-06-09 23:18:02.265 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:18:02.281 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:18:02.293 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:18:02.305 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:19:35.990 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:19:36.462 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:19:38.657 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 200 OK
+[INFO ] 2025-06-09 23:19:39.889 [main] LoggerReader - Validated authorized response: : HTTP/1.1 200 OK
+[INFO ] 2025-06-09 23:19:39.907 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:19:39.908 [main] LoggerReader - authenticated without username and password
+[INFO ] 2025-06-09 23:19:40.200 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:19:40.204 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:19:40.210 [main] LoggerReader - Setting invalid basic auth
+[INFO ] 2025-06-09 23:19:40.211 [main] LoggerReader - authenticated with invalid username and password
+[INFO ] 2025-06-09 23:19:40.572 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:19:40.576 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:19:40.584 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:19:40.586 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:19:41.010 [main] LoggerReader - Sent GET request with invalid endpoint: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:19:41.014 [main] LoggerReader - Validated response: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:19:41.021 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:19:41.022 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:19:41.380 [main] LoggerReader - Sent GET request with invalid Method name: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 23:19:41.389 [main] LoggerReader - Validated response: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 23:19:41.395 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:19:41.396 [main] LoggerReader - authenticated without username and password
+[INFO ] 2025-06-09 23:19:41.831 [main] LoggerReader - Sent POST request without auth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:19:41.835 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:19:41.842 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:19:41.843 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:20:37.989 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:20:38.399 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:20:40.802 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 200 OK
+[INFO ] 2025-06-09 23:20:41.945 [main] LoggerReader - Validated authorized response: : HTTP/1.1 200 OK
+[INFO ] 2025-06-09 23:20:41.962 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:20:41.962 [main] LoggerReader - authenticated without username and password
+[INFO ] 2025-06-09 23:20:42.295 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:42.300 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:42.309 [main] LoggerReader - Setting invalid basic auth
+[INFO ] 2025-06-09 23:20:42.309 [main] LoggerReader - authenticated with invalid username and password
+[INFO ] 2025-06-09 23:20:42.664 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:42.668 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:42.677 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:20:42.677 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:20:43.085 [main] LoggerReader - Sent GET request with invalid endpoint: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:20:43.088 [main] LoggerReader - Validated response: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:20:43.097 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:20:43.098 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:20:43.460 [main] LoggerReader - Sent GET request with invalid Method name: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 23:20:43.463 [main] LoggerReader - Validated response: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 23:20:43.469 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:20:43.470 [main] LoggerReader - authenticated without username and password
+[INFO ] 2025-06-09 23:20:43.897 [main] LoggerReader - Sent POST request without auth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:43.901 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:43.907 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:20:43.908 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:20:44.274 [main] LoggerReader - Sent POST request with auth: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:20:46.674 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:20:47.111 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:20:49.406 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 200 OK
+[INFO ] 2025-06-09 23:20:50.564 [main] LoggerReader - Validated authorized response: : HTTP/1.1 200 OK
+[INFO ] 2025-06-09 23:20:50.580 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:20:50.581 [main] LoggerReader - authenticated without username and password
+[INFO ] 2025-06-09 23:20:50.905 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:50.923 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:50.931 [main] LoggerReader - Setting invalid basic auth
+[INFO ] 2025-06-09 23:20:50.932 [main] LoggerReader - authenticated with invalid username and password
+[INFO ] 2025-06-09 23:20:51.283 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:51.287 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:51.294 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:20:51.294 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:20:51.705 [main] LoggerReader - Sent GET request with invalid endpoint: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:20:51.708 [main] LoggerReader - Validated response: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:20:51.714 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:20:51.714 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:20:52.068 [main] LoggerReader - Sent GET request with invalid Method name: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 23:20:52.072 [main] LoggerReader - Validated response: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 23:20:52.080 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:20:52.081 [main] LoggerReader - authenticated without username and password
+[INFO ] 2025-06-09 23:20:52.541 [main] LoggerReader - Sent POST request without auth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:52.544 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:20:52.552 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:20:52.554 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:20:52.971 [main] LoggerReader - Sent POST request with auth: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:23:18.054 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:23:18.472 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:23:20.454 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 200 OK
+[INFO ] 2025-06-09 23:23:21.804 [main] LoggerReader - Validated authorized response: : HTTP/1.1 200 OK
+[INFO ] 2025-06-09 23:23:21.821 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:23:21.821 [main] LoggerReader - authenticated without username and password
+[INFO ] 2025-06-09 23:23:22.131 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:23:22.135 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:23:22.144 [main] LoggerReader - Setting invalid basic auth
+[INFO ] 2025-06-09 23:23:22.146 [main] LoggerReader - authenticated with invalid username and password
+[INFO ] 2025-06-09 23:23:22.531 [main] LoggerReader - Sent GET request with baseAuth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:23:22.536 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:23:22.542 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:23:22.543 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:23:22.949 [main] LoggerReader - Sent GET request with invalid endpoint: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:23:22.953 [main] LoggerReader - Validated response: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:23:22.960 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:23:22.961 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:23:23.333 [main] LoggerReader - Sent GET request with invalid Method name: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 23:23:23.337 [main] LoggerReader - Validated response: HTTP/1.1 405 Method Not Allowed
+[INFO ] 2025-06-09 23:23:23.345 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:23:23.346 [main] LoggerReader - authenticated without username and password
+[INFO ] 2025-06-09 23:23:23.759 [main] LoggerReader - Sent POST request without auth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:23:23.762 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:23:23.768 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:23:23.770 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:23:24.142 [main] LoggerReader - Sent POST request with auth: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:23:24.147 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:27:46.049 [main] LoggerReader - No authentication for this scenario
+[INFO ] 2025-06-09 23:27:46.682 [main] LoggerReader - authenticated without username and password
+[INFO ] 2025-06-09 23:27:48.638 [main] LoggerReader - Sent POST request without auth: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:27:48.668 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 401 Unauthorized
+[INFO ] 2025-06-09 23:27:48.671 [main] LoggerReader - Setting valid basic auth
+[INFO ] 2025-06-09 23:27:48.673 [main] LoggerReader - authenticated with valid username and password
+[INFO ] 2025-06-09 23:27:49.229 [main] LoggerReader - Sent POST request with auth: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:27:49.231 [main] LoggerReader - Validated unauthorized response: HTTP/1.1 404 Not Found
+[INFO ] 2025-06-09 23:27:49.287 [main] LoggerReader - Setting valid basic auth
